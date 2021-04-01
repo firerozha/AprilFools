@@ -1,0 +1,29 @@
+name: AprilFools
+version: ${project.version}
+main: other.AprilFools
+api-version: 1.16
+prefix: AprilFools
+authors: [ FireRoz ]
+description: Troll your friends / players using the best April Fools plugin.
+
+commands:
+  jcharles:
+    aliases: jamescharles
+  giveaway:
+
+
+
+permissions:
+  aprilfools.jcharles:
+    default: op
+  aprilfools.giveaway:
+    default: op
+  aprilfools.scarmbledchat:
+    default: op
+  aprilfools.*:
+    default: op
+    children:
+      aprilfools.jcharles: true
+      aprilfools.giveaway: true
+      aprilfools.scarmbledchat: true
+

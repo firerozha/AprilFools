@@ -1,0 +1,13 @@
+# April Fools
+# Never gonna give this plugin up :)
+# Made in <3 by FireRoz
+
+# To make the troll more convincing, the plugin needs to get the name of the top purchasable rank (to rickroll the victims >:)
+# Use color codes of the rank prefix
+toprank: "&bGod"
+# And to be even more convincing, we'll pop your server name in the message
+# I set it to "server" so if you don't set it, it'll be a little convincing
+servername: "&c&lServer"
+# If a player doesn't have permission to something in this plugin, he'll be sent this message:
+# and yes the perm message is a troll as well just cause, I knew some people wouldn't like it so I added an option to change it
+noperm: "&dSorry sister, you can't do that."
