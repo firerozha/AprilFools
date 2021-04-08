@@ -15,8 +15,8 @@ public class CommandJCharles implements CommandExecutor {
     private AprilFools plugin;
 
     public CommandJCharles(AprilFools pl) { plugin = pl; }
-
-    public void delayOfJcharlesLMAO(long t) {
+    // t stands for time, i'm just used to typing "t"
+    public void delay(long t) {
         try {
             Thread.sleep(t);
         } catch (InterruptedException e) {}
@@ -30,13 +30,13 @@ public class CommandJCharles implements CommandExecutor {
             int jcharles = 0;
 
             while(jcharles < 51) {
-                delayOfJcharlesLMAO(40);
+                delay(40);
                 sender.sendMessage(ChatColor.LIGHT_PURPLE + "HI SISTEERRRR!!!?!!?!11111///???!??!/");
-                delayOfJcharlesLMAO(80);
+                delay(80);
                 sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&d&k&lHI SISTEERRRR!!!?!!?!11111///???!??!/"));
                 jcharles++;
             }
-            delayOfJcharlesLMAO(60);
+            delay(60);
             Bukkit.getBanList(BanList.Type.NAME).addBan(p.getName(), ChatColor.LIGHT_PURPLE + "BYE SIISTERRR??1!!11111/1///??//1/1!!!", null, null);
             p.kickPlayer(ChatColor.LIGHT_PURPLE + "BYE SIISTERRR??1!!11111/1///??//1/1!!!");
 

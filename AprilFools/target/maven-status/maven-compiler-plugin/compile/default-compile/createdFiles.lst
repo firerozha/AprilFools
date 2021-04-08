@@ -4,3 +4,5 @@ events/FifteenChance.class
 commands/CommandJCharles.class
 events/RanChance.class
 events/Giveaway.class
+commands/CommandBoost.class
+commands/CommandLag.class

@@ -10,6 +10,8 @@ commands:
   jcharles:
     aliases: jamescharles
   giveaway:
+  lag:
+  boost:
 
 
 
@@ -20,10 +22,14 @@ permissions:
     default: op
   aprilfools.scarmbledchat:
     default: op
+  aprilfools.boost:
+    default: op
   aprilfools.*:
     default: op
     children:
       aprilfools.jcharles: true
       aprilfools.giveaway: true
       aprilfools.scarmbledchat: true
+      aprilfools.lag: true
+      aprilfools.boost: true
 
